@@ -7,7 +7,8 @@ body {
 * {
     box-sizing: border-box;
 }
-header{
+
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -128,8 +129,9 @@ header{
     border: none;
 }
 
-.the-source-img {
-    background: url(../images/slanted-green-bg.png) no-repeat;
+.bg-section {
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: 100% 87%;
 }
 
 .the-source-img a {
@@ -367,7 +369,7 @@ footer .footer-logo-1 {
         font-size: 34px;
         font-weight: 900;
     }
-    .the-source-img p{
+    .the-source-img p {
         font-size: 15px;
     }
 }
@@ -386,11 +388,11 @@ footer .footer-logo-1 {
     }
     .footer-md {
         width: 100%;
-        display: flex ;
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .footer-box-1{
+    .footer-box-1 {
         width: 50%;
     }
     .brand-imgs {
