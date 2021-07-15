@@ -7,6 +7,14 @@ body {
 * {
     box-sizing: border-box;
 }
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background: white;
+}
 
 .text-black {
     color: rgba(0, 0, 0, 1) !important;
@@ -243,6 +251,7 @@ footer .footer-logo-1 {
     }
     .banner-section {
         background: url(../images/banner-bg.png) no-repeat;
+        margin-top: 67px;
     }
     .banner-heading {
         font-weight: 800;
