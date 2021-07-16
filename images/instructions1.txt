@@ -17,3 +17,4 @@
 
 Open the link below for the design
 https://www.figma.com/file/1UeRf1SbdLCLykMiQ9Ue8z/NinjaMail-(Community)?node-id=1%3A2
+:hover learn more:- https://nvidia.langoorqa.net/html/index.html
