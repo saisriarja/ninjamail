@@ -36,4 +36,17 @@ $(document).ready(function(){
             }
         }
     });
+    $('.contact-form').submit(function() {
+        // alert('hi');
+        $flag = true;
+        $(this).find('.required').each(function() {
+            if ($(this).val() == "") {
+                $flag = false;
+                $(this).addClass('blank').siblings('.spn').children('small').html($(this).attr("name") + "  Email received.").css('font-size', '12px');
+            } else {
+                $(this).removeClass('blank').siblings('.spn').children('small').html('');
+            }
+        });
+        return $flag;
+    });
 });

@@ -28,8 +28,17 @@ header {
     border: none;
     font-size: 14px;
     border-bottom: none;
+    color: white;
+    font-weight: 700;
 }
-
+.text-black-btn button:hover{
+    color: rgba(75, 168, 125, 1);
+    border: 2px solid rgba(75, 168, 125, 1);
+    background: white;
+    font-weight: 700;
+    font-size: 13px;
+    transform: translateY(0) scale(1.1);
+}
 .button-green {
     background: rgba(75, 168, 125, 1) !important;
     border: none;
@@ -91,11 +100,17 @@ header {
     background-size: 100% 100%;
 }
 
-.middle-text-container button {
+.middle-text-container button, .modal-footer .save-btn{
     color: rgba(75, 168, 125, 1);
     font-weight: 700;
+    background: white;
+    border: none;
 }
-
+.middle-text-container button:hover, .modal-footer .save-btn {
+    color: white;
+    font-weight: 700;
+    background: rgba(75, 168, 125, 1);
+}
 .banner-btns button {
     width: 129px;
     min-width: 129px;
@@ -161,6 +176,7 @@ header {
     border: none;
     background: rgba(75, 168, 125, 1);
     font-weight: 600;
+    color: white;
 }
 
 .form-btn:hover {
@@ -169,7 +185,10 @@ header {
     color: rgba(75, 168, 125, 1);
     font-weight: 600;
 }
-
+.spn small{
+    color: rgba(75, 168, 125, 1);
+    text-align: left;
+}
 /* .hero-img-hide{
     display: none !important;
 } */
@@ -317,6 +336,10 @@ footer .footer-logo-1 {
         min-width: 112px;
         text-align: -webkit-center;
     }
+    .spn{
+        color: rgba(75, 168, 125, 1);
+
+    }
 }
 
 @media (min-width:992px) {
@@ -400,4 +423,15 @@ footer .footer-logo-1 {
         min-width: 121px;
         text-align: -webkit-center;
     }
+    .banner-section{
+        margin-top: 102px;
+    }
+}
+
+.the-source-bg-box:hover, .three-col-img:hover{
+    transform: translateY(0) scale(1.1);
+}
+.modal-dialog{
+    width: 66% !important;
+    max-width: 66% !important   ;
 }
