@@ -42,7 +42,7 @@ $(document).ready(function(){
         $(this).find('.required').each(function() {
             if ($(this).val() == "") {
                 $flag = false;
-                $(this).addClass('blank').siblings('.spn').children('small').html($(this).attr("name") + "  field is requred.").css('font-size', '15px');
+                $(this).addClass('blank').siblings('.spn').children('small').html($(this).attr("name") + "  is requred.").css('font-size', '15px');
             } else {
                 $(this).removeClass('blank').siblings('.spn').children('small').html('');
             }
