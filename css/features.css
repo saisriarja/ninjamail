@@ -46,3 +46,17 @@ body {
     width: 302px;
     max-width: 302px;
 }
+.communicate-right p{
+    color: #606469;
+    font-size: 16px;
+    line-height: 26px;
+}
+.communicate-right h4{
+    color: #091e3f;
+    font-weight: 800;
+}
+.communicate-right a{
+    text-decoration: none;
+    color: rgba(75, 168, 125, 1);
+    font-weight: 700;
+}
