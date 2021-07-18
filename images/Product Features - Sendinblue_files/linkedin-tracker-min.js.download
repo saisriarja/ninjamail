@@ -1,0 +1,1 @@
+var trackers=document.querySelectorAll("#action_tracker");if(!window.is_wpcf7_trackers_set){for(var tracker of trackers){var form=$(tracker).closest(".wpcf7"),url=tracker.dataset.trackerUrl,referrer=tracker.dataset.referrer;-1!==(""+document.referrer).toLowerCase().indexOf(referrer)&&form.on("wpcf7submit",(function(r){tracker.src=url}))}window.is_wpcf7_trackers_set=!0}

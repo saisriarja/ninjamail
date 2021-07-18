@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+.feature-banner-section{
+    margin-top: 67px;
+}
+.feature-banner-section h1{
+    font-size: 52px;
+    line-height: 52px;
+    color: #091E3F;
+    font-weight: 800;
+}
+.feature-banner-section p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #606469;
+}
+.bg-gre-btn{
+    color: white;
+    background: rgba(75, 168, 125, 1);
+    border: 2px solid rgba(75, 168, 125, 1);
+    font-weight: 700;
+    border-radius: 20px;
+}
+.feature-banner-section iframe{
+    width: 427px;
+    max-width: 427px;
+    height: 457px;
+    max-width: 457px;
+}
+.communicate-section{
+    background: #f1efee;
+}
+.communicate-h1{
+    color: #091e3f;
+    font-size: 42px;
+    font-weight: 800;
+}
+.communicate-section .left-img{
+    width: 302px;
+    max-width: 302px;
+}
