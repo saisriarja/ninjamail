@@ -33,12 +33,7 @@ body {
     border-radius: 20px;
 }
 
-.feature-banner-section iframe {
-    width: 427px;
-    max-width: 427px;
-    height: 457px;
-    max-width: 457px;
-}
+
 
 .communicate-section {
     background: #f1efee;
@@ -89,17 +84,31 @@ body {
     font-size: 18px;
     line-height: 28px;
 }
+@media (min-width:992px){
+    .feature-banner-section iframe {
+        width: 427px;
+        max-width: 427px;
+        height: 457px;
+        max-height: 457px;
+    }
+}
 @media (min-width:768px){
     .communicate-section .left-img{
         width: 259px;
         max-width: 259px;
     }
+    .feature-banner-section iframe{
+        width: 369px;
+        max-width: 369px;
+        max-height: 369px;
+        height: 369px;
+    }
 }
 @media (max-width: 765px) {
     .feature-banner-section iframe {
         width: 327px;
-        max-width: 327px;
         height: 357px;
+        max-height: 357px;
         max-width: 357px;
     }
 }
