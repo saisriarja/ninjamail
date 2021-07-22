@@ -21,6 +21,9 @@ $(document).ready(function(){
     $('.brands-carousel').owlCarousel({
         nav: true,
         smartSpeed: 700,
+        autoplay:true,
+        autoplayTimeout:1000,
+        autoplayHoverPause:true,
         responsive:{
             0:{
                 items:5,
@@ -34,7 +37,9 @@ $(document).ready(function(){
                 items:5,
                 nav: true
             }
+            
         }
+        
     });
     $('.contact-form').submit(function() {
         // alert('hi');

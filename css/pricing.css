@@ -9,52 +9,76 @@ body {
 }
 
 .pricing-banner {
-    background: #044a75;
+    background: rgba(75, 168, 125, 3);
     margin-top: 92px;
 }
-.pricing-banner p{
+
+.pricing-banner p {
     font-size: 20px;
     line-height: 30px;
-    color: rgba(255,255,255,.8);
+    color: rgba(255, 255, 255, .8);
 }
-.pricing-boxs{
+
+.pricing-boxs {
     background: white;
     border-radius: 8px;
 }
-.pricing-3{
+
+.pricing-3 {
     background-color: #fffdf2;
 }
-.pricing-boxs h3{
+
+.pricing-boxs h3 {
     font-size: 28px;
     line-height: 38px;
     font-weight: 800;
 }
-.pricing-boxs .h3-2{
-    color: #0092ff;
-}
-.pricing-boxs .h3-3{
-    color: #ffd201;
-}
-.primum{
-    background-color: #ffd201;
-    color: #091e3f;
+
+.primum {
     border-radius: 8px;
 }
-.pricing-boxs .h3-4{
-    color: #044a75;
-}
-.pricing-boxs p{
+
+.pricing-boxs p {
     color: #606469;
     font-size: 14px;
     line-height: 24px;
 }
-.pricing-boxs h2{
+
+.pricing-boxs h2 {
     font-weight: 800;
+    font-size: 44px;
 }
+
+.sig-btn {
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: #272727;
+}
+
+.every {
+    color: #606469;
+}
+
+.custom {
+    color: #091e3f !important;
+    font-size: 14px !important;
+    font-weight: 900;
+    text-align: left;
+}
+
+/* .padding-box{
+    padding: 105px;
+} */
+
 @media (min-width:992px) {
     .pricing-banner h1 {
         font-size: 62px;
         font-weight: 700;
+    }
+    .pricing-boxs {
+        height: 682px;
+        min-height: 682px;
     }
 }
 
@@ -67,7 +91,6 @@ body {
 
 @media (max-width: 765px) {
     .pricing-banner h1 {
-        
         font-weight: 700;
     }
 }
