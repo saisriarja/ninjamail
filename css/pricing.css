@@ -71,6 +71,55 @@ body {
     padding: 105px;
 } */
 
+.pricing-boxs {
+    height: 682px;
+    min-height: 682px;
+}
+
+.fa-check {
+    color: rgba(75, 168, 125, 3);
+}
+
+.cell {
+    border-left: 1px solid #d2d5d9;
+}
+
+.cell-section h4 {
+    font-weight: 700;
+}
+
+.email-sms-section {
+    background: #eeeceb;
+}
+
+.email-sms-section h1 {
+    font-weight: 900;
+}
+
+.email-sms-section h6, .hid p {
+    color: #606469;
+    font-size: 18px;
+}
+.click, .click-2{
+    border-bottom: 1px solid #d2d5d9;
+}
+.fa-plus{
+    color: rgba(75, 168, 125, 3);
+}
+.hid h2{
+    font-weight: 700;
+    word-spacing: 3px;
+}
+.hid-btn{
+    border-radius: 20px;
+}
+.bg-lit{
+    background: #eeeceb;
+}
+.faq{
+    font-weight: 800;
+    font-size: 45px;
+}
 @media (min-width:992px) {
     .pricing-banner h1 {
         font-size: 62px;

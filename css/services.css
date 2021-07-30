@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.services-banner-section {
+    margin-top: 67px;
+}
+
+.services-banner-section h1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.services-banner-section .banner-left-btn {
+    border-radius: 20px;
+}
+
+.services-banner-section p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #606469;
+}
+
+.top-section {
+    background: #f1efee;
+}
+.top-section h1{
+    font-weight: 800;
+}
+.top-section i {
+    font-size: 39px;
+    color: rgba(75, 168, 125, 1);
+}
+
+.top-section h5 {
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.top-section p {
+    line-height: 28px;
+}
+.rich-section h1{
+    font-weight: 800;
+}
+.rich-section span{
+    color: rgba(75, 168, 125, 1);
+}
+.fa-check-circle{
+    font-size: 25px;
+    color: rgba(75, 168, 125, 1);
+    padding-top: 4px;
+}
+.rich-section h2{
+    font-weight: 700;
+}
+.rich-section h5{
+    font-weight: 700;
+}
+.rich-section p{
+    color: #606469;
+    font-size: 14px;
+}
+.included-feature-list{
+    background:linear-gradient(-45deg, rgba(75, 168, 125, 1) 0%, rgb(49 80 66) 60%, rgb(0 14 8) 99%);
+}
+.included-feature-list h4{
+    color: #FFFFFF;
+    font-weight: 800;
+}
+.included-feature-list p{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.PostyMan-section h1{
+    font-weight: 800;
+}
+.PostyMan-section h3{
+    font-weight: 700;
+}
+.PostyMan-section p{
+    color: #606469;
+}

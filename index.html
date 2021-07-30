@@ -68,7 +68,10 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-black-btn ml-lg-3 p-md-0 pr-0" href="#">
-                                    <button class=" p-2 px-lg-4 hvr-radial-in-1 px-3 px-md-2 banner-left-btn">
+                                    <!-- Button trigger modal -->
+                                    <button type="button"
+                                        class="p-2 px-lg-4 hvr-radial-in-1 px-3 px-md-2 banner-left-btn"
+                                        data-toggle="modal" data-target="#exampleModalCenter">
                                         SIGN UP FREE
                                     </button>
                                 </a>
@@ -139,8 +142,7 @@
                 <div class="middle-text-container hvr-bounce-to-bottom p-5  mx-auto text-center p-0 pb-md-5">
                     <h1 class="text-white font-weight-bold py-md-5 mt-5">Reach More Customers</h1>
                     <!-- Button trigger modal -->
-                    <button type="button" class=" border-0 p-2 mb-5 px-4 hvr-radial-in mb-5" data-toggle="modal"
-                        data-target="#exampleModalCenter">
+                    <button type="button" class=" border-0 p-2 mb-5 px-4 hvr-radial-in mb-5">
                         LEARN HOW
                     </button>
                 </div>
@@ -384,22 +386,44 @@
         <div class="modal-dialog  modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header border-0  pl-4">
-                    <h5 class="modal-title pt-3 font-weight-bold" id="exampleModalLongTitle">Reach More Customers</h5>
+                    <h3 class="modal-title pt-3 pl-3 font-weight-bold" id="exampleModalLongTitle">Get In Touch</h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body border-0 pl-4 text-left py-4 ">
-                    Start building and sharing with your team today. NinjaMail is renowned for its industry
-                    leading team collaboration tools.
-                    Launch campaigns but also find new customers. Our unique platform handles campaigns from
-                    start to end.
-                    Whether you’re a startup, small business, e-commerce store, or want to promote your app,
-                    NinjaMail has the feature set tailored for your business.
-                </div>
-                <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="save-btn py-2 hvr-radial-in-1">Save changes</button>
+                    <grammarly-extension data-grammarly-shadow-root="true" class="cGcvT"
+                        style="position: absolute; top: 0px; left: 0px; pointer-events: none;">
+                    </grammarly-extension>
+                    <form action="" class="contact-form">
+                        <div class="col-12 d-flex flex-row flex-wrap p-0">
+                            <div class="col-6">
+                                <input class="input p-3 my-2  w-100 required" name="Name" type="text"
+                                    placeholder="Nmae">
+                                <span class=" spn "><small class="text-danger"></small></span>
+                            </div>
+                            <div class="col-6">
+                                <input class="input p-3 my-2  w-100 required" name="E-mail" type="text"
+                                    placeholder="E-mail">
+                                <span class=" spn "><small class="text-danger"></small></span>
+                            </div>
+                            <div class="col-12">
+                                <input class="input p-3 my-2  w-100 required" name="Mobile Number" type="text"
+                                    placeholder="Mobile Number">
+                                <span class=" spn "><small class="text-danger"></small></span>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="input p-3 my-2  w-100 required" name="Message"
+                                    placeholder="Your Message" style="height:100px;" pattern="[A-Za-z]{100}"
+                                    title=" Your Message" spellcheck="false"></textarea>
+                                <span class=" spn "><small class="text-danger"></small></span>
+                            </div>
+                        </div>
+                        <div class="modal-footer border-0">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="submit" name="submit" class="save-btn py-2 px-4 btn" id="submit">Save</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
