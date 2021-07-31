@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    color: #606469;
+}
+
+.about-banner-section {
+    margin-top: 67px;
+}
+
+.about-banner-section h1 {
+    font-family: PublicoHeadline-Bold-Web;
+    color: #091E3F;
+    font-size: 62px;
+    line-height: 60px;
+    font-weight: 900;
+}
+
+.about-banner-section p {
+    margin-top: 40px;
+    padding-left: 30px;
+    border-left: 2px solid #FFD201;
+    color: #606469;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.partner-section h3 {
+    font-size: 41px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #091E3F;
+}
+
+.partner-section p {
+    margin-bottom: 20px;
+    color: #606469;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.office-section h1 {
+    font-weight: 700;
+    font-size: 42px;
+}
+.img-team{
+    background: #f1efee;
+}
+.img-team h1{
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.img-team h3{
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.img-team p{
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.border-b{
+    border-bottom: 1px solid #d2d5d9;
+}
+@media (max-width: 990px){
+   
+}
+@media (max-width: 765px){
+    .partner-section h3 {
+        font-size: 26px;
+        line-height: 50px;
+        font-weight: 700;
+        color: #091E3F;
+    }
+}
