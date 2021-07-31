@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+.partners-banner{
+    margin-top: 67px;
+    background: #EBF8F3;
+}
+.partners-banner h2{
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: #555c66;
+}
+.partners-banner p{
+    font-size: 25px;
+    color: #555c66;
+    font-weight: 300;
+}
+.second-section img{
+    max-width: 120px;
+}
+.second-section h6{
+    color: #555c66 ;
+    font-weight: 800;
+    font-size: 18px;
+}
+.second-section p{
+    color: #555c66;
+    font-size: 14px;
+    line-height: 25px;
+}
+.second-section .boxes:hover{
+    transition: box-shadow 0.3s;
+    box-shadow: 0 0 40px rgb(0 0 0 / 10%);
+}
+.help-section{
+    background: #EBF8F3;
+}
+.help-section h2{
+    font-size: 50px;
+    color: #555c66;
+}
+.help-section p{
+    color: #555c66;
+    font-size: 18px;
+    font-weight: 300;
+}
+.brands-section {
+    background: #FAFAFA;
+}
+.brands-section h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #555c66;
+    letter-spacing: 4px;
+}
+.contact{
+    background: rgba(75, 168, 125, 1);
+}
+.contact h1{
+    font-size: 50px;
+}
+@media (max-width: 990px){
+    .partners-banner h2{
+        font-size: 30px;
+        margin: 25px 0;
+        color: #555c66;
+    }
+    .partners-banner p{
+        font-size: 16px;
+        color: #555c66;
+        font-weight: 300;
+    }
+    .help-section h2{
+        font-size: 30px;
+        color: #555c66;
+    }
+    .contact h1{
+        font-size: 38px;
+    }
+}
+@media (max-width: 765px){
+    .partners-banner h2{
+        font-size: 34px;
+        margin: 25px 0;
+        color: #555c66;
+    }
+    .partners-banner p{
+        font-size: 18px;
+        color: #555c66;
+        font-weight: 300;
+    }
+    .help-section h2{
+        font-size: 34px;
+        color: #555c66;
+    }
+    .contact h1{
+        font-size: 38px;
+    }
+}
